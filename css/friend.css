@@ -22,6 +22,10 @@
 	align-items: center;
 }
 
+.friend__column i {
+	font-size: 24px;
+}
+
 .friend .friend__avatar {
 	margin-right: 15px;
 }
@@ -45,4 +49,25 @@
 .friend__content .friend__status,
 .friend .chat__timestamp {
 	font-size: 12px;
+}
+
+.friend__add-btn {
+	display: flex;
+	padding: 12px 14px;
+	justify-content: center;
+	align-items: center;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+}
+
+.chat .chat__badge {
+	font-size: 10px;
+	color: white;
+	background-color: red;
+	width: 18px;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
 }

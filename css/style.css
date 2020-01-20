@@ -4,6 +4,11 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 * {
 	box-sizing: border-box;
@@ -14,7 +19,6 @@ body {
 	padding: 10px 20px;
 	color: #141414;
 	font-family: 'Open Sans', sans-serif;
-	height: 100000px;
 }
 
 a {
@@ -22,3 +26,23 @@ a {
 	cursor: pointer;
 	text-decoration: none;
 }
+
+/*.
+	index에 뱃지를 만들고 싶은데 어떻게 하는지 잘 모르겠다..
+	chats .friend__column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.chats .chat__badge {
+	font-size: 10px;
+	color: white;
+	background-color: red;
+	width: 18px;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}*/
