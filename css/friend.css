@@ -17,9 +17,32 @@
 	width: 60px;
 }
 
-.friend .friend__column{
+.friend .friend__column {
 	display: flex;
 	align-items: center;
+	margin: 10px 0px;
+	position: relative;
+}
+
+.chat__badge{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+
+.chat__badge{
+	font-size: 10px;
+	color: white;
+	background-color: red;
+	width: 18px;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 5px;
+	border-radius: 50%;
 }
 
 .friend__column i {
@@ -70,4 +93,22 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
+}
+
+.friend__column .grid {
+	position: relative;
+	width: 60px;
+	margin-right: 17px;
+}
+
+.chats__chat .grid .friend__avatar {
+	width: 43px;
+	background-color: red;
+}
+
+.chats__chat .grid .friend__avatar:nth-child(2) {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	border: 2px solid white;
 }
