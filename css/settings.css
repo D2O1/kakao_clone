@@ -1,6 +1,6 @@
 .settings .settings__sections {
 	border-top: 1px solid #EAEAEA;
-	padding: 30px 0px;
+	padding: 20px 0px;
 }
 
 .settings .settings__setting {
@@ -9,7 +9,7 @@
 
 
 .settings .settings__setting:last-child {
-	margin: 10px 0px 30px 0px;
+	margin: 10px 0px 20px 0px;
 }
 
 .settings__setting .settings__icon {
@@ -19,7 +19,19 @@
 }
 
 .settings__setting .settings__title {
-	font-size: 2px;
+	font-size: 15px;
 	font-weight: lighter;
 	cursor: pointer;
+}
+
+.settings__setting {
+	position: relative;
+}
+
+.settings__version {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 12px;
+	opacity: 0.6;
 }
